@@ -1,0 +1,13 @@
+# Copy to waf_targets.local.toml (gitignored) and fill in YOUR protected
+# domains. base empty -> matrix rows SKIP.
+
+[aws]
+base = ""
+# profile = "aws"          # optional override when auto-detect stays silent
+
+[cloudflare]
+base = ""
+# profile = "cloudflare"
+
+#[akamai]
+#base = ""                 # pending domain assignment
